@@ -9,12 +9,12 @@
     <copyright>Trojanking</copyright>
     <lastBuildDate>Sun, 07 Feb 2021 08:18:31 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>Hugo建站</title>
       <link>http://localhost:1313/post/my-first-post/</link>
       <pubDate>Sun, 07 Feb 2021 08:18:31 +0000</pubDate>
       
       <guid>http://localhost:1313/post/my-first-post/</guid>
-      <description>test kkkk </description>
+      <description>Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Markdown文本格式生成静态的网页， github pages 可以根据你的内容（html，css等）展示网页效果。</description>
     </item>
     
   </channel>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>My First Post - Trojanking</title>
+  <title>Hugo建站 - Trojanking</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Trojanking" /><meta name="description" content="test kkkk " /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Trojanking" /><meta name="description" content="Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Markdown文本格式生成静态的网页， github pages 可以根据你的内容（html，css等）展示网页效果。" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -39,24 +39,24 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="My First Post" />
-<meta property="og:description" content="test kkkk " />
+<meta property="og:title" content="Hugo建站" />
+<meta property="og:description" content="Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Markdown文本格式生成静态的网页， github pages 可以根据你的内容（html，css等）展示网页效果。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/my-first-post/" />
 <meta property="article:published_time" content="2021-02-07T08:18:31+00:00" />
 <meta property="article:modified_time" content="2021-02-07T08:18:31+00:00" />
-<meta itemprop="name" content="My First Post">
-<meta itemprop="description" content="test kkkk ">
+<meta itemprop="name" content="Hugo建站">
+<meta itemprop="description" content="Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Markdown文本格式生成静态的网页， github pages 可以根据你的内容（html，css等）展示网页效果。">
 <meta itemprop="datePublished" content="2021-02-07T08:18:31+00:00" />
 <meta itemprop="dateModified" content="2021-02-07T08:18:31+00:00" />
-<meta itemprop="wordCount" content="2">
+<meta itemprop="wordCount" content="789">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="My First Post"/>
-<meta name="twitter:description" content="test kkkk "/>
+<meta name="twitter:title" content="Hugo建站"/>
+<meta name="twitter:description" content="Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Markdown文本格式生成静态的网页， github pages 可以根据你的内容（html，css等）展示网页效果。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -129,13 +129,13 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">My First Post</h1>
+      <h1 class="post-title">Hugo建站</h1>
 
       <div class="post-meta">
         <span class="post-time"> 2021-02-07 </span>
         
-          <span class="more-meta"> 约 2 字 </span>
-          <span class="more-meta"> 预计阅读 1 分钟 </span>
+          <span class="more-meta"> 约 789 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
         
       </div>
     </header>
@@ -145,9 +145,17 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#test">test</a>
+    <li>
       <ul>
-        <li><a href="#kkkk">kkkk</a></li>
+        <li><a href="#hugo-and-github-pages">Hugo and Github pages</a></li>
+        <li><a href="#绑定自己的域名">绑定自己的域名</a></li>
+        <li><a href="#遇到的问题">遇到的问题</a>
+          <ul>
+            <li><a href="#本地图片问题">本地图片问题</a></li>
+            <li><a href="#虚拟机等本地局域网测试访问问题">虚拟机等本地局域网测试访问问题</a></li>
+            <li><a href="#github-要求输入用户名密码问题">github 要求输入用户名密码问题</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -155,9 +163,68 @@
   </div>
 </div>
     <div class="post-content">
-      <h1 id="test">test</h1>
-<h2 id="kkkk">kkkk</h2>
-<p><img src="/qr/wechat.png" alt="wechat"></p>
+      <h2 id="hugo-and-github-pages">Hugo and Github pages</h2>
+<p>hugo 简单理解为一个命令行工具，能够根据Markdown文本格式生成静态的网页，
+github pages 可以根据你的内容（html，css等）展示网页效果。</p>
+<p>步骤如下：</p>
+<ul>
+<li>
+<p>申请一个github pages</p>
+<ul>
+<li>创建一个github 仓库，名字格式必须是<code>github_user_name.github.io</code></li>
+</ul>
+</li>
+<li>
+<p>安装hugo， 生成一个静态博客，添加博客文档（md格式）</p>
+<ul>
+<li>linux下，我本人是Ubuntu的系统，到<a href="https://github.com/gohugoio/hugo/releases"> Hugo Release </a>页面下载deb，使用<code>dpkg -i *******.deb</code>进行安装</li>
+<li>安装后即可使用hugo 命令<code>hugo version</code>
+<ol>
+<li><code>hugo new site blog_name</code></li>
+<li><code>cd blog_name</code></li>
+<li>以<a href="https://github.com/olOwOlo/hugo-theme-even"> Even </a>主题为例子，各个主题略有不同.
+<ul>
+<li><code>git clone https://github.com/olOwOlo/hugo-theme-even themes/even</code></li>
+<li><code>cp ./themes/even/exampleSite/config.toml ./</code></li>
+<li>编辑<code>config.toml</code>即可对主题进行配置</li>
+</ul>
+</li>
+<li><code>hugo new post/some-content.md</code>会生成<code>content/post/some...md</code>文件，编辑md文件即可，注意头部格式，需要将draft设置未<code>false</code>才能在正式部署到github pages后显示</li>
+<li>验证方式为<code>hugo server -D</code></li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<p>提交到GitHub pages</p>
+<ul>
+<li>生成github pages 需要的静态文件，在根目录执行<code>hugo</code>命令，生成一个public文件夹<code>cd public</code></li>
+<li><code>git init</code></li>
+<li><code>git remote add origin https://github.com/your_name.your_name.github.io.git</code></li>
+<li><code>git add .</code></li>
+<li><code>git commit -m &quot;first commit&quot; </code></li>
+<li><code>git push -u origin master</code></li>
+<li>然后访问<code>https://your_name.github.io</code>即可</li>
+</ul>
+</li>
+</ul>
+<h2 id="绑定自己的域名">绑定自己的域名</h2>
+<ul>
+<li>域名商绑定到 <code>your_name.github.io</code></li>
+<li>本地在public下面创建名字叫做<code>CNAME</code>的文件，文件内容为你域名如<code>kkk.com</code>，需要提交github 仓库里面。</li>
+</ul>
+<h2 id="遇到的问题">遇到的问题</h2>
+<p>遇到的问题及解决方式，大多通过网上查找，本人总结下</p>
+<h3 id="本地图片问题">本地图片问题</h3>
+<p>使用<code>![show_name](/img/kk.png)</code>对应目录<code>/content/img/kk.png</code></p>
+<h3 id="虚拟机等本地局域网测试访问问题">虚拟机等本地局域网测试访问问题</h3>
+<ul>
+<li>虚拟机做NAT端口转化<img src="/img/vm_nat.png" alt="nat端口转化">，
+将虚拟机ip的1313端口转化到本地的23233端口</li>
+<li>hugo server 指定绑定的ip，<code> hugo server --bind &quot;0.0.0.0&quot; -p 1313 -D</code></li>
+</ul>
+<h3 id="github-要求输入用户名密码问题">github 要求输入用户名密码问题</h3>
+<p>设置gitconfig.credential.helper=store</p>
 
     </div>
 
@@ -185,7 +252,10 @@
         <img class="image" src="/qr/wechat.png">
         <span>微信打赏</span>
       </label>
-    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="/qr/alipay.jpg">
+        <span>支付宝打赏</span>
+      </label>
   </div>
 </div><footer class="post-footer">
       
