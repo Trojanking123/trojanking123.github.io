@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/my-first-post/</loc>
     <lastmod>2021-02-07T08:18:31+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -23,7 +30,8 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/categories/%E6%9D%82%E5%BF%86/</loc>
+    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
