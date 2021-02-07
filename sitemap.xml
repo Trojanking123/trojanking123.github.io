@@ -9,6 +9,20 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/github-pages/</loc>
+    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/hugo/</loc>
+    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/post/my-first-post/</loc>
     <lastmod>2021-02-07T08:18:31+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -17,6 +31,13 @@
   
   <url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2021-02-07T08:18:31+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -32,12 +53,6 @@
   <url>
     <loc>http://localhost:1313/categories/%E6%9D%82%E5%BF%86/</loc>
     <lastmod>2021-02-07T08:18:31+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
