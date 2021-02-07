@@ -14,7 +14,7 @@
       <pubDate>Sun, 07 Feb 2021 08:18:31 +0000</pubDate>
       
       <guid>http://localhost:1313/post/my-first-post/</guid>
-      <description>Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Markdown文本格式生成静态的网页， github pages 可以根据你的内容（html，css等）展示网页效果。</description>
+      <description>本文主要介绍利用hugo，github pages，和自己的域名，进行搭建简易静态博客的流程。 Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Ma</description>
     </item>
     
   </channel>
