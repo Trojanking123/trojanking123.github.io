@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Hugo建站 - Trojanking</title>
+  <title>Python Tricks - Trojanking</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Trojanking" /><meta name="description" content="本文主要介绍利用hugo，github pages，和自己的域名，进行搭建简易静态博客的流程。 Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Ma" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="Trojanking" /><meta name="description" content="本文主要是学习Effective Python的记录，会记录一些自己认为比较有用的技巧或者思想。原文有90种技巧（面向python3，但只对p" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.81.0 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/my-first-post/" />
+<link rel="canonical" href="http://localhost:1313/post/python-tricks/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,20 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Hugo建站" />
-<meta property="og:description" content="本文主要介绍利用hugo，github pages，和自己的域名，进行搭建简易静态博客的流程。 Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Ma" />
+<meta property="og:title" content="Python Tricks" />
+<meta property="og:description" content="本文主要是学习Effective Python的记录，会记录一些自己认为比较有用的技巧或者思想。原文有90种技巧（面向python3，但只对p" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/my-first-post/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-02-07T08:18:31&#43;00:00" />
-<meta property="article:modified_time" content="2021-02-07T08:18:31&#43;00:00" />
+<meta property="og:url" content="http://localhost:1313/post/python-tricks/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-02-26T09:05:55&#43;00:00" />
+<meta property="article:modified_time" content="2021-02-26T09:05:55&#43;00:00" />
 
-<meta itemprop="name" content="Hugo建站">
-<meta itemprop="description" content="本文主要介绍利用hugo，github pages，和自己的域名，进行搭建简易静态博客的流程。 Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Ma"><meta itemprop="datePublished" content="2021-02-07T08:18:31&#43;00:00" />
-<meta itemprop="dateModified" content="2021-02-07T08:18:31&#43;00:00" />
-<meta itemprop="wordCount" content="835">
-<meta itemprop="keywords" content="hugo,github pages," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hugo建站"/>
-<meta name="twitter:description" content="本文主要介绍利用hugo，github pages，和自己的域名，进行搭建简易静态博客的流程。 Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Ma"/>
+<meta itemprop="name" content="Python Tricks">
+<meta itemprop="description" content="本文主要是学习Effective Python的记录，会记录一些自己认为比较有用的技巧或者思想。原文有90种技巧（面向python3，但只对p"><meta itemprop="datePublished" content="2021-02-26T09:05:55&#43;00:00" />
+<meta itemprop="dateModified" content="2021-02-26T09:05:55&#43;00:00" />
+<meta itemprop="wordCount" content="285">
+<meta itemprop="keywords" content="python,tricks," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python Tricks"/>
+<meta name="twitter:description" content="本文主要是学习Effective Python的记录，会记录一些自己认为比较有用的技巧或者思想。原文有90种技巧（面向python3，但只对p"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -129,15 +129,15 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Hugo建站</h1>
+      <h1 class="post-title">Python Tricks</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2021-02-07 </span>
+        <span class="post-time"> 2021-02-26 </span>
         <div class="post-category">
-            <a href="/categories/%E6%9D%82%E5%BF%86/"> 杂忆 </a>
+            <a href="/categories/python/"> python </a>
             </div>
-          <span class="more-meta"> 约 835 字 </span>
-          <span class="more-meta"> 预计阅读 2 分钟 </span>
+          <span class="more-meta"> 约 285 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
     </header>
@@ -145,89 +145,91 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#hugo-and-github-pages">Hugo and Github pages</a></li>
-        <li><a href="#绑定自己的域名">绑定自己的域名</a></li>
-        <li><a href="#遇到的问题">遇到的问题</a>
-          <ul>
-            <li><a href="#本地图片问题">本地图片问题</a></li>
-            <li><a href="#虚拟机等本地局域网测试访问问题">虚拟机等本地局域网测试访问问题</a></li>
-            <li><a href="#github-要求输入用户名密码问题">github 要求输入用户名密码问题</a></li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
     <div class="post-content">
-      <p>本文主要介绍利用hugo，github pages，和自己的域名，进行搭建简易静态博客的流程。</p>
-<h2 id="hugo-and-github-pages">Hugo and Github pages</h2>
-<p>hugo 简单理解为一个命令行工具，能够根据Markdown文本格式生成静态的网页，
-github pages 可以根据你的内容（html，css等）展示网页效果。</p>
-<p>步骤如下：</p>
-<ul>
-<li>
-<p>申请一个github pages</p>
-<ul>
-<li>创建一个github 仓库，名字格式必须是<code>github_user_name.github.io</code></li>
-</ul>
-</li>
-<li>
-<p>安装hugo， 生成一个静态博客，添加博客文档（md格式）</p>
-<ul>
-<li>linux下，我本人是Ubuntu的系统，到<a href="https://github.com/gohugoio/hugo/releases"> Hugo Release </a>页面下载deb，使用<code>dpkg -i *******.deb</code>进行安装</li>
-<li>安装后即可使用hugo 命令<code>hugo version</code>
+      <p>本文主要是学习<code>Effective Python</code>的记录，会记录一些自己认为比较有用的技巧或者思想。原文有90种技巧（面向python3，但只对python3 起作用的话，我会备注出来），如今选录，也不一定按照顺序来</p>
 <ol>
-<li><code>hugo new site blog_name</code></li>
-<li><code>cd blog_name</code></li>
-<li>以<a href="https://github.com/olOwOlo/hugo-theme-even"> Even </a>主题为例子，各个主题略有不同.
-<ul>
-<li><code>git clone https://github.com/olOwOlo/hugo-theme-even themes/even</code></li>
-<li><code>cp ./themes/even/exampleSite/config.toml ./</code></li>
-<li>编辑<code>config.toml</code>即可对主题进行配置</li>
-</ul>
-</li>
-<li><code>hugo new post/some-content.md</code>会生成<code>content/post/some...md</code>文件，编辑md文件即可，注意头部格式，需要将draft设置未<code>false</code>才能在正式部署到github pages后显示</li>
-<li>验证方式为<code>hugo server -D</code></li>
+<li>利用 enumerate</li>
 </ol>
-</li>
-</ul>
-</li>
-<li>
-<p>提交到GitHub pages</p>
-<ul>
-<li>生成github pages 需要的静态文件，在根目录执行<code>hugo</code>命令，生成一个public文件夹<code>cd public</code></li>
-<li><code>git init</code></li>
-<li><code>git remote add origin https://github.com/your_name.your_name.github.io.git</code></li>
-<li><code>git add .</code></li>
-<li><code>git commit -m &quot;first commit&quot; </code></li>
-<li><code>git push -u origin master</code></li>
-<li>然后访问<code>https://your_name.github.io</code>即可</li>
-</ul>
-</li>
-</ul>
-<h2 id="绑定自己的域名">绑定自己的域名</h2>
-<ul>
-<li>域名商绑定到 <code>your_name.github.io</code></li>
-<li>本地在public下面创建名字叫做<code>CNAME</code>的文件，文件内容为你域名如<code>kkk.com</code>，需要提交github 仓库里面。</li>
-</ul>
-<h2 id="遇到的问题">遇到的问题</h2>
-<p>遇到的问题及解决方式，大多通过网上查找，本人总结下</p>
-<h3 id="本地图片问题">本地图片问题</h3>
-<p>使用<code>![show_name](/img/kk.png)</code>对应目录<code>/content/img/kk.png</code></p>
-<h3 id="虚拟机等本地局域网测试访问问题">虚拟机等本地局域网测试访问问题</h3>
-<ul>
-<li>虚拟机做NAT端口转化<img src="/img/vm_nat.png" alt="nat端口转化">，
-将虚拟机ip的1313端口转化到本地的23233端口</li>
-<li>hugo server 指定绑定的ip，<code> hugo server --bind &quot;0.0.0.0&quot; -p 1313 -D</code></li>
-</ul>
-<h3 id="github-要求输入用户名密码问题">github 要求输入用户名密码问题</h3>
-<p>设置gitconfig.credential.helper=store</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">num</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="mi">3</span><span class="p">):</span> <span class="c1"># 3 为初始值</span>
+    <span class="k">print</span> <span class="n">i</span><span class="p">,</span> <span class="n">num</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="m">3</span> <span class="m">1</span>
+<span class="m">4</span> <span class="m">2</span>
+<span class="m">5</span> <span class="m">3</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>这样能拿到值的同时，拿到index。不用再<code>for i in len( list )</code> 这种写了</p>
+<ol start="2">
+<li>利用 zip</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="s1">&#39;b&#39;</span><span class="p">,</span> <span class="s1">&#39;c&#39;</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">print</span> <span class="n">i</span><span class="p">,</span> <span class="n">j</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="m">1</span> a
+<span class="m">2</span> b
+<span class="m">3</span> c
+</code></pre></td></tr></table>
+</div>
+</div><p>注意 zip 默认遍历到最短的那个为止， 遍历对象应该是有限个。它是并行遍历？</p>
+<p>3：[start🔚strip]</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-python" data-lang="python"><span class="n">a</span> <span class="o">=</span> <span class="s2">&#34;abcdefgh&#34;</span>
+<span class="n">a</span><span class="p">[</span><span class="mi">2</span><span class="p">::</span><span class="mi">3</span><span class="p">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">cf
+</code></pre></td></tr></table>
+</div>
+</div><p>利用此种用法可以轻松实现倒序<code>[::-1]</code></p>
 
     </div>
 
@@ -239,7 +241,7 @@ github pages 可以根据你的内容（html，css等）展示网页效果。</p
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2021-02-07
+        2021-02-26
         
     </span>
   </p>
@@ -262,16 +264,16 @@ github pages 可以根据你的内容（html，css等）展示网页效果。</p
   </div>
 </div><footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/hugo/">hugo</a>
-          <a href="/tags/github-pages/">github pages</a>
+          <a href="/tags/python/">python</a>
+          <a href="/tags/tricks/">tricks</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/python-tricks/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Python Tricks</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
+        <a class="next" href="/post/my-first-post/">
+            <span class="next-text nav-default">Hugo建站</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>
