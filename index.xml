@@ -13,17 +13,8 @@
       <pubDate>Sun, 16 Jan 2022 01:02:37 +0800</pubDate>
       
       <guid>http://trojanking.me/post/abc/</guid>
-      <description>kjkfsdkfjskf fjksdfjksdjkfjkfjksd</description>
-    </item>
-    
-    <item>
-      <title>first blog</title>
-      <link>http://trojanking.me/kk/</link>
-      <pubDate>Sun, 16 Jan 2022 01:00:12 +0800</pubDate>
-      
-      <guid>http://trojanking.me/kk/</guid>
       <description>test
-head1 head2 head3 &amp;lsquo;&amp;lsquo;&amp;lsquo;python a = 4 &#39;&amp;rsquo;&amp;rsquo;</description>
+head1 head2 head3 1  a = 4   </description>
     </item>
     
   </channel>
