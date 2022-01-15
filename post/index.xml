@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Trojanking</title>
-    <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on Trojanking</description>
+    <title>Posts on Trojanking ~ </title>
+    <link>http://trojanking.me/post/</link>
+    <description>Recent content in Posts on Trojanking ~ </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Trojanking</copyright>
-    <lastBuildDate>Fri, 26 Feb 2021 09:05:55 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Jan 2022 01:02:37 +0800</lastBuildDate><atom:link href="http://trojanking.me/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python Tricks</title>
-      <link>http://localhost:1313/post/python-tricks/</link>
-      <pubDate>Fri, 26 Feb 2021 09:05:55 +0000</pubDate>
+      <title>Abc</title>
+      <link>http://trojanking.me/post/abc/</link>
+      <pubDate>Sun, 16 Jan 2022 01:02:37 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/python-tricks/</guid>
-      <description>本文主要是学习Effective Python的记录，会记录一些自己认为比较有用的技巧或者思想。原文有90种技巧（面向python3，但只对p</description>
-    </item>
-    
-    <item>
-      <title>Hugo建站</title>
-      <link>http://localhost:1313/post/my-first-post/</link>
-      <pubDate>Sun, 07 Feb 2021 08:18:31 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/my-first-post/</guid>
-      <description>本文主要介绍利用hugo，github pages，和自己的域名，进行搭建简易静态博客的流程。 Hugo and Github pages hugo 简单理解为一个命令行工具，能够根据Ma</description>
+      <guid>http://trojanking.me/post/abc/</guid>
+      <description>kjkfsdkfjskf fjksdfjksdjkfjkfjksd</description>
     </item>
     
   </channel>

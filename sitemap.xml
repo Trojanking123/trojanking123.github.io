@@ -1,86 +1,42 @@
-<?xml-stylesheet type="text/xsl" href="http://localhost:1313/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="http://trojanking.me/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2021-02-26T09:05:55+00:00</lastmod>
+    <loc>http://trojanking.me/post/abc/</loc>
+    <lastmod>2022-01-16T01:02:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2021-02-26T09:05:55+00:00</lastmod>
+    <loc>http://trojanking.me/post/</loc>
+    <lastmod>2022-01-16T01:02:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2021-02-26T09:05:55+00:00</lastmod>
+    <loc>http://trojanking.me/</loc>
+    <lastmod>2022-01-16T01:02:37+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/python/</loc>
-    <lastmod>2021-02-26T09:05:55+00:00</lastmod>
+    <loc>http://trojanking.me/kk/</loc>
+    <lastmod>2022-01-16T01:00:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/python-tricks/</loc>
-    <lastmod>2021-02-26T09:05:55+00:00</lastmod>
+    <loc>http://trojanking.me/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2021-02-26T09:05:55+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/tricks/</loc>
-    <lastmod>2021-02-26T09:05:55+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2021-02-26T09:05:55+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/github-pages/</loc>
-    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
-    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/my-first-post/</loc>
-    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/categories/%E6%9D%82%E5%BF%86/</loc>
-    <lastmod>2021-02-07T08:18:31+00:00</lastmod>
+    <loc>http://trojanking.me/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
