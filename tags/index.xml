@@ -5,6 +5,25 @@
     <link>http://trojanking.me/tags/</link>
     <description>Recent content in Tags on Trojanking ~ </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://trojanking.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Jul 2022 10:41:10 +0800</lastBuildDate><atom:link href="http://trojanking.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>os</title>
+      <link>http://trojanking.me/tags/os/</link>
+      <pubDate>Wed, 06 Jul 2022 10:41:10 +0800</pubDate>
+      
+      <guid>http://trojanking.me/tags/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>risc-v</title>
+      <link>http://trojanking.me/tags/risc-v/</link>
+      <pubDate>Wed, 06 Jul 2022 10:41:10 +0800</pubDate>
+      
+      <guid>http://trojanking.me/tags/risc-v/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
