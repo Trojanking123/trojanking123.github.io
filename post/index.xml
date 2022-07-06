@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Trojanking ~ </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Jan 2022 01:02:37 +0800</lastBuildDate><atom:link href="http://trojanking.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 06 Jul 2022 10:41:10 +0800</lastBuildDate><atom:link href="http://trojanking.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS_0706</title>
+      <link>http://trojanking.me/post/os_0706/</link>
+      <pubDate>Wed, 06 Jul 2022 10:41:10 +0800</pubDate>
+      
+      <guid>http://trojanking.me/post/os_0706/</guid>
+      <description>0706 OS 学习记录，测试</description>
+    </item>
+    
     <item>
       <title>Abc</title>
       <link>http://trojanking.me/post/abc/</link>
@@ -14,7 +23,7 @@
       
       <guid>http://trojanking.me/post/abc/</guid>
       <description>test
-head1 head2 head3 1  a = 4   </description>
+head1 head2 head3 1 a = 4 </description>
     </item>
     
   </channel>
