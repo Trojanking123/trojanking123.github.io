@@ -3,41 +3,48 @@
   
   <url>
     <loc>http://trojanking.me/tags/os/</loc>
-    <lastmod>2022-07-06T10:41:10+08:00</lastmod>
+    <lastmod>2022-07-08T02:33:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://trojanking.me/post/os_0706/</loc>
-    <lastmod>2022-07-06T10:41:10+08:00</lastmod>
+    <loc>http://trojanking.me/post/os_0707/</loc>
+    <lastmod>2022-07-08T02:33:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://trojanking.me/post/</loc>
-    <lastmod>2022-07-06T10:41:10+08:00</lastmod>
+    <lastmod>2022-07-08T02:33:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://trojanking.me/tags/risc-v/</loc>
-    <lastmod>2022-07-06T10:41:10+08:00</lastmod>
+    <lastmod>2022-07-08T02:33:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://trojanking.me/tags/</loc>
-    <lastmod>2022-07-06T10:41:10+08:00</lastmod>
+    <lastmod>2022-07-08T02:33:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://trojanking.me/</loc>
+    <lastmod>2022-07-08T02:33:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://trojanking.me/post/os_0706/</loc>
     <lastmod>2022-07-06T10:41:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

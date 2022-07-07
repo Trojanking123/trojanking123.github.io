@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Trojanking ~ </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Jul 2022 10:41:10 +0800</lastBuildDate><atom:link href="http://trojanking.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Jul 2022 02:33:50 +0800</lastBuildDate><atom:link href="http://trojanking.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS_0707</title>
+      <link>http://trojanking.me/post/os_0707/</link>
+      <pubDate>Fri, 08 Jul 2022 02:33:50 +0800</pubDate>
+      
+      <guid>http://trojanking.me/post/os_0707/</guid>
+      <description>今天主要看了特权模式 了解了几个寄存器的作用，及使用时间。没怎么看懂，记住也不太现实，希望到时候结合代码看看吧</description>
+    </item>
+    
     <item>
       <title>OS_0706</title>
       <link>http://trojanking.me/post/os_0706/</link>
