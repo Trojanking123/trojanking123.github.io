@@ -6,7 +6,25 @@
     <description>Recent content in risc-v on Trojanking ~ </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 08 Jul 2022 02:33:50 +0800</lastBuildDate><atom:link href="http://trojanking.me/tags/risc-v/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 Jul 2022 13:50:44 +0800</lastBuildDate><atom:link href="http://trojanking.me/tags/risc-v/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS_0709</title>
+      <link>http://trojanking.me/post/os_0709/</link>
+      <pubDate>Sun, 10 Jul 2022 13:50:44 +0800</pubDate>
+      
+      <guid>http://trojanking.me/post/os_0709/</guid>
+      <description>今天打游戏去了 QAQ</description>
+    </item>
+    
+    <item>
+      <title>OS_0708</title>
+      <link>http://trojanking.me/post/os_0708/</link>
+      <pubDate>Sun, 10 Jul 2022 13:49:06 +0800</pubDate>
+      
+      <guid>http://trojanking.me/post/os_0708/</guid>
+      <description>几天学习了lab0-test1，开看点汇编的基本东西 了解了系统的基本框架</description>
+    </item>
+    
     <item>
       <title>OS_0707</title>
       <link>http://trojanking.me/post/os_0707/</link>
