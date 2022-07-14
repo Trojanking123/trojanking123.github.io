@@ -6,7 +6,16 @@
     <description>Recent content in risc-v on Trojanking ~ </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Jul 2022 01:09:10 +0800</lastBuildDate><atom:link href="http://trojanking.me/tags/risc-v/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jul 2022 02:03:22 +0800</lastBuildDate><atom:link href="http://trojanking.me/tags/risc-v/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS_0711_0712_0713_0714</title>
+      <link>http://trojanking.me/os_0711_0712_0713_0714/</link>
+      <pubDate>Fri, 15 Jul 2022 02:03:22 +0800</pubDate>
+      
+      <guid>http://trojanking.me/os_0711_0712_0713_0714/</guid>
+      <description>这几天弄完了lab1，搞明白了lab0 粗略看过的概念，但是看的时候是懂了，下来一会儿就王完了，特别是几个汇编文件，每次都要文档辅助才能说清楚</description>
+    </item>
+    
     <item>
       <title>OS_0710</title>
       <link>http://trojanking.me/post/os_0710/</link>

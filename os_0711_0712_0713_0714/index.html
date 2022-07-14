@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>os · Trojanking ~ </title>
+  <title>OS_0711_0712_0713_0714 - Trojanking ~ </title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Trojanking" /><meta name="description" content="My personal log about things and thought." /><meta name="keywords" content="Hugo, Trojanking" />
+<meta name="author" content="Trojanking" /><meta name="description" content="这几天弄完了lab1，搞明白了lab0 粗略看过的概念，但是看的时候是懂了，下来一会儿就王完了，特别是几个汇编文件，每次都要文档辅助才能说清楚" /><meta name="keywords" content="Hugo, Trojanking" />
 
 
 
@@ -26,9 +26,7 @@
 <meta name="generator" content="Hugo 0.91.2 with theme even" />
 
 
-<link rel="canonical" href="http://trojanking.me/tags/os/" />
-  <link href="http://trojanking.me/tags/os/index.xml" rel="alternate" type="application/rss+xml" title="Trojanking ~ " />
-  <link href="http://trojanking.me/tags/os/index.xml" rel="feed" type="application/rss+xml" title="Trojanking ~ " />
+<link rel="canonical" href="http://trojanking.me/os_0711_0712_0713_0714/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -41,15 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="os" />
-<meta property="og:description" content="My personal log about things and thought." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://trojanking.me/tags/os/" />
+<meta property="og:title" content="OS_0711_0712_0713_0714" />
+<meta property="og:description" content="这几天弄完了lab1，搞明白了lab0 粗略看过的概念，但是看的时候是懂了，下来一会儿就王完了，特别是几个汇编文件，每次都要文档辅助才能说清楚" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://trojanking.me/os_0711_0712_0713_0714/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-07-15T02:03:22+08:00" />
+<meta property="article:modified_time" content="2022-07-15T02:03:22+08:00" />
 
-<meta itemprop="name" content="os">
-<meta itemprop="description" content="My personal log about things and thought."><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="os"/>
-<meta name="twitter:description" content="My personal log about things and thought."/>
+<meta itemprop="name" content="OS_0711_0712_0713_0714">
+<meta itemprop="description" content="这几天弄完了lab1，搞明白了lab0 粗略看过的概念，但是看的时候是懂了，下来一会儿就王完了，特别是几个汇编文件，每次都要文档辅助才能说清楚"><meta itemprop="datePublished" content="2022-07-15T02:03:22+08:00" />
+<meta itemprop="dateModified" content="2022-07-15T02:03:22+08:00" />
+<meta itemprop="wordCount" content="91">
+<meta itemprop="keywords" content="os,risc-v,rust," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="OS_0711_0712_0713_0714"/>
+<meta name="twitter:description" content="这几天弄完了lab1，搞明白了lab0 粗略看过的概念，但是看的时候是懂了，下来一会儿就王完了，特别是几个汇编文件，每次都要文档辅助才能说清楚"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -123,74 +126,19 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <section id="archive" class="archive">
-  <div class="archive-title tag">
-        <h2 class="archive-name">os</h2>
-      </div>
+          <article class="post">
+  <div class="post-content">
+    <p>这几天弄完了lab1，搞明白了lab0 粗略看过的概念，但是看的时候是懂了，下来一会儿就王完了，特别是几个汇编文件，每次都要文档辅助才能说清楚功能。</p>
+<p>user stack 和 kernel stack 切换加上 task switch 是最复杂的部分</p>
 
-  <div class="archive-post">
-      <span class="archive-post-time">
-        2022-07-15
-      </span>
-      <span class="archive-post-title">
-        <a href="/os_0711_0712_0713_0714/" class="archive-post-link">
-          OS_0711_0712_0713_0714
-        </a>
-      </span>
-    </div><div class="archive-post">
-      <span class="archive-post-time">
-        2022-07-11
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/os_0710/" class="archive-post-link">
-          OS_0710
-        </a>
-      </span>
-    </div><div class="archive-post">
-      <span class="archive-post-time">
-        2022-07-10
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/os_0709/" class="archive-post-link">
-          OS_0709
-        </a>
-      </span>
-    </div><div class="archive-post">
-      <span class="archive-post-time">
-        2022-07-10
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/os_0708/" class="archive-post-link">
-          OS_0708
-        </a>
-      </span>
-    </div><div class="archive-post">
-      <span class="archive-post-time">
-        2022-07-08
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/os_0707/" class="archive-post-link">
-          OS_0707
-        </a>
-      </span>
-    </div><div class="archive-post">
-      <span class="archive-post-time">
-        2022-07-06
-      </span>
-      <span class="archive-post-title">
-        <a href="/post/os_0706/" class="archive-post-link">
-          OS_0706
-        </a>
-      </span>
-    </div>
-</section>
-
-<nav class="pagination">
-  
-  
-</nav>
+  </div>
+</article>
         </div>
         
+
+  
+
+  
 
       </div>
     </main>
