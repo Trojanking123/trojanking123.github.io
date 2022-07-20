@@ -6,7 +6,34 @@
     <description>Recent content in rust on Trojanking ~ </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 15 Jul 2022 02:03:22 +0800</lastBuildDate><atom:link href="http://trojanking.me/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jul 2022 01:31:25 +0800</lastBuildDate><atom:link href="http://trojanking.me/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS_0718_0719_0720</title>
+      <link>http://trojanking.me/post/os_0718_0719_0720/</link>
+      <pubDate>Thu, 21 Jul 2022 01:31:25 +0800</pubDate>
+      
+      <guid>http://trojanking.me/post/os_0718_0719_0720/</guid>
+      <description>这三天把lab2-os4 弄完了，还有些迷迷糊糊的 练习题也是看了助教视频后才解决的，但是没有理解到，insert_framed_area函数之</description>
+    </item>
+    
+    <item>
+      <title>OS_0716_0717</title>
+      <link>http://trojanking.me/post/os_0716_0717/</link>
+      <pubDate>Thu, 21 Jul 2022 01:30:19 +0800</pubDate>
+      
+      <guid>http://trojanking.me/post/os_0716_0717/</guid>
+      <description>这两天打游戏去了，没学习 QAQ</description>
+    </item>
+    
+    <item>
+      <title>OS_0715</title>
+      <link>http://trojanking.me/post/os_0715/</link>
+      <pubDate>Thu, 21 Jul 2022 01:29:02 +0800</pubDate>
+      
+      <guid>http://trojanking.me/post/os_0715/</guid>
+      <description>学习 lab2-os4</description>
+    </item>
+    
     <item>
       <title>OS_0711_0712_0713_0714</title>
       <link>http://trojanking.me/post/os_0711_0712_0713_0714/</link>
